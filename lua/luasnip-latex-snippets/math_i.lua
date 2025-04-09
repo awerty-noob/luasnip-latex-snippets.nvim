@@ -55,7 +55,7 @@ function M.retrieve(is_math)
       "\\left\\{ ${1:${TM_SELECTED_TEXT}} \\right\\\\} $0"
     ),
     parse_snippet(
-      { trig = "lr[]", name = "left[ right]" },
+      { trig = "lrm", name = "left[ right]" },
       "\\left[ ${1:${TM_SELECTED_TEXT}} \\right] $0"
     ),
     parse_snippet(
